@@ -1,6 +1,6 @@
 {
-  "name": "@thecatfour/package-test",
-  "version": "1.0.1",
+  "name": "package-test",
+  "version": "1.0.2",
   "description": "This is a test github npm package.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecatfour/package-test.git"
+    "url": "https://github.com/thecatfour/package-test.git"
   },
   "author": "thecatfour",
   "license": "MIT",
