@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thecatfour/package-test/issues"
   },
-  "homepage": "https://github.com/thecatfour/package-test#readme"
+  "homepage": "https://github.com/thecatfour/package-test#readme",
+  "publishConfig": {
+    "@thecatfour:registry": "https://npm.pkg.github.com"
+  }
 }
