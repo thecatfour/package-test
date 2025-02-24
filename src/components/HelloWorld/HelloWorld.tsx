@@ -1,13 +1,11 @@
-import { FC } from "react";
+import React from "react";
 
-const HelloWorld: FC = () => {
-    return (
-        <div
-            className="text-4xl text-cyan-500 bg-black"
-        >
-            Hello World
-        </div>
-    );
-}
+const HelloWorld = ( name: string ) => (
+    <div
+        className="text-4xl text-cyan-500 bg-black"
+    >
+        Hello World, {name}
+    </div>
+);
 
 export default HelloWorld;
