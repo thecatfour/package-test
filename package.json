@@ -1,0 +1,19 @@
+{
+  "name": "@thecatfour/package-test",
+  "version": "1.0.0",
+  "description": "This is a test github npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecatfour/package-test.git"
+  },
+  "author": "thecatfour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecatfour/package-test/issues"
+  },
+  "homepage": "https://github.com/thecatfour/package-test#readme"
+}
