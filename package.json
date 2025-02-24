@@ -2,9 +2,12 @@
   "name": "@thecatfour/package-test",
   "version": "1.0.4",
   "description": "This is a test github npm package.",
-  "main": "src/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.10",
+    "tsup": "^8.3.6",
     "typescript": "^5.7.3"
   }
 }
