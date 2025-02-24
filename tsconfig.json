@@ -1,0 +1,21 @@
+{
+    "files": [],
+    "references": [
+        { "path": "./tsconfig.app.json" },
+        { "path": "./tsconfig.node.json" }
+    ],
+    "compilerOptions": {
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": ["vitest/globals"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "strict": true
+    },
+    "include": ["src/**/*.{ts,tsx}"],
+    "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts", "**/*.test.tsx"]
+}
