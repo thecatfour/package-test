@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thecatfour/package-test#readme",
   "publishConfig": {
-    "@thecatfour:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.8",
